@@ -1,2 +1,7 @@
-# gfmarkdown
-python wrapper for GitHub Flavored Markdown using github api
+# gfmd
+python wrapper GitHub Flavored Markdown using GitHub Markdown API
+# usage
+``` python
+from gfmd import markdown
+html = markdown(markdown_content)
+```
