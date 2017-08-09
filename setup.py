@@ -12,7 +12,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='gfmd',
-    version='0.1.0',
+    version='0.1.1',
 
     description='GitHub Flavored Markdown',
     long_description=long_description,
@@ -23,6 +23,7 @@ setup(
     # Author details
     author='Hao Ke',
     author_email='kehao95@gmail.com',
+    package_data={'': ['README.md']},
 
     # Choose your license,
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -51,7 +52,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='private',
+    keywords='markdown',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
