@@ -12,7 +12,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='gfmd',
-    version='0.1.1',
+    version='0.1.2',
 
     description='GitHub Flavored Markdown',
     long_description=long_description,
